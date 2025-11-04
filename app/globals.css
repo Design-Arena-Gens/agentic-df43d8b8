@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: #0f172a; }
+label { font-weight: 600; color: #0f172a; }
+input, select, textarea { border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.6rem 0.75rem; width: 100%; }
+button { cursor: pointer; }
+.container { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
+.card { background: #fff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); padding: 1.5rem; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+.helper { color: #64748b; font-size: 0.85rem; }
+.error { color: #b91c1c; font-size: 0.9rem; }
+.success { color: #065f46; font-size: 0.95rem; }
+.badge { display:inline-flex; align-items:center; gap:.5rem; background:#f1f5f9; border:1px solid #e2e8f0; padding:.4rem .6rem; border-radius:999px; font-size:.8rem; color:#334155; }
+.divider { height: 1px; background: #e5e7eb; margin: 1.25rem 0; }
+small.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono"; color:#334155; }
